@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    width: 1440px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 60px;
+  }
+  
+    .div{
+    background-color: hsl(31, 77%, 52%);
+    margin: 0px;
+    text-align: left;
+    font-size: 30px;
+    height: 500px;
+    width:300px
+  }
+  .div1 {
+    background-color:hsl(184, 100%, 22%);
+    margin: 0px;
+    text-align: left;
+    font-size: 30px;
+    height: 500px;
+    width:300px;
+  }
+      .div2 {
+    background-color: hsl(179, 100%, 13%);
+    margin: 0px;
+    text-align: left;
+    font-size: 30px;
+    height: 500px;
+    width:300px;
+      }
+  .h{
+      color: hsl(0, 0%, 95%);
+      font-size:35px;
+      margin-top:50px;
+      margin-left:50px;
+      font-family: 'Big Shoulders Display', cursive;
+      weights:700;
+  }
+  .p1{
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      margin-top:15px;
+      margin-left:50px;
+      font-family: 'Lexend Deca';
+      weights:400;
+      text-align:left;
+      line-height: 35px;
+  }
+  .img{
+    width:60px;
+    height:40px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:20px;
+  }
+  .lm{
+    background-color:hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    width: 85px;
+    font-size:15px;
+    font-family: 'Lexend Deca';
+    weights:400;
+    padding: 15px 19px 15px 25px;
+    border:1px solid white;
+    border-radius:25px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:120px;
+  }
+  .lm1{
+    background-color:hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    width: 85px;
+    font-size:15px;
+    font-family: 'Lexend Deca';
+    weights:400;
+    padding: 15px 19px 15px 25px;
+    border:1px solid white;
+    border-radius:25px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:120px;
+  }
+  .lm2{
+    background-color:hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    width: 85px;
+    font-size:15px;
+    font-family: 'Lexend Deca';
+    weights:400;
+    padding: 15px 19px 15px 25px;
+    border:1px solid white;
+    border-radius:25px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:120px;
+  }
+  a{
+    text-decoration: none;
+  }
+a>div:hover, a>div:active{
+  background-color: transparent;
+  color:white;
+}
